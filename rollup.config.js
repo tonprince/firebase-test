@@ -9,9 +9,9 @@ export default {
 	input: 'src/main.js',
 	output: {
 		name: 'app',
-		format: 'umd',
+		format: 'esm',
 		sourcemap: true,
-		dir: 'public/build',
+		file: 'public/build/bundle.js'
 	},
 	plugins: [
 		svelte({
